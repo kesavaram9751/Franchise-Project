@@ -4,6 +4,8 @@
   align-items: center;
   justify-content: center;
   background-image: url(../image/banner.jpg);
+      background-color:var(--bg-opacity-black-color);
+    background-blend-mode: overlay;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
