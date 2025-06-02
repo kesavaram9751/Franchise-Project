@@ -432,6 +432,13 @@
 
 
 
+@media (max-width: 1200px){
+
+    .wrapper .card-container .card:nth-child(9),
+    .wrapper .card-container .card:nth-child(10){
+        display: none;
+    }
+}
 @media (max-width: 1050px){
     section{
         padding: 15px 0px;
@@ -452,12 +459,8 @@
     .why-choose .wrapper .reasons .reason{
         height: 70%;
     }
-    .wrapper .card-container .card:nth-child(9),
-    .wrapper .card-container .card:nth-child(10){
-        display: none;
-    }
 } 
-@media (max-width: 923px){
+@media (max-width: 956px){
     .wrapper .card-container .card:nth-child(7),
     .wrapper .card-container .card:nth-child(8){
         display: none;
@@ -474,6 +477,8 @@
     .about .wrapper .text {
         width: 100%;
         height: 50%;
+        align-items: center;
+        text-align: center;
     }
     .about .wrapper .image {
         display: none;
@@ -511,13 +516,22 @@
     width: 100%;
     }
 }
-@media (max-width: 700px){
+@media (max-width: 712px){
         .wrapper .card-container .card:nth-child(5),
     .wrapper .card-container .card:nth-child(6){
         display: none;
     }
 }
 @media (max-width: 690px){
+    .hero{
+        background: url(../image/banner-2-mobile.png);
+        background-color:var(--bg-opacity-black-color);
+background-blend-mode: overlay;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+
+    }
     .categories .wrapper .category-container {
         flex-wrap: nowrap;
         flex-direction: column;
@@ -539,24 +553,7 @@
         width: auto;
     }
 }
-@media (max-width: 470px){
-
-    .new-listings {
-    height: 780px;
-    }
-    .new-listings .wrapper .card-container .card:nth-child(4){
-        display: none;
-    }
-    .new-listings .wrapper .card-container .card {
-            width: 300px;
-    height: 200px;
-    }
-    .new-listings .wrapper .card-container .card img {
-        object-fit: contain;
-        object-position: top;
-    }
-}
-@media (max-width: 438px){
+@media (max-width: 500px){
     .explore,.sell{
         height: 250px;
     }
@@ -573,6 +570,23 @@
     }
     .explore .wrapper .text,.sell .wrapper .text h2{
         text-align: center;
+    }
+}
+@media (max-width: 470px){
+
+    .new-listings {
+    height: 780px;
+    }
+    .new-listings .wrapper .card-container .card:nth-child(4){
+        display: none;
+    }
+    .new-listings .wrapper .card-container .card {
+            width: 300px;
+    height: 200px;
+    }
+    .new-listings .wrapper .card-container .card img {
+        object-fit: contain;
+        object-position: top;
     }
 }
 
