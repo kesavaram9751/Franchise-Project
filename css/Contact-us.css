@@ -133,6 +133,9 @@
   }
 }
   @media (max-width: 800px) {
+    .contact-section .contact-container {
+      border-radius: 5px;
+    }
     .contact-container {
       flex-direction: column;
     }
@@ -141,6 +144,10 @@
     flex: 1 1 00px;
         justify-content: start;
     gap: 30px;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 90%;
 }
     
     .contact-form .row {

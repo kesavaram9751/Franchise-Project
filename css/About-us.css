@@ -41,6 +41,7 @@
 
 .vision-mission-goal {
     /* padding: 40px 20px; */
+    margin-top: 20px;
     width: 100%;
     height: auto;
     display: flex;
@@ -55,6 +56,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 50px;
 }
 
 .vision-mission-goal .wrapper .block {
@@ -63,7 +65,8 @@
     display: flex;
     align-content: center;
     justify-content: space-between;
-    margin-bottom: 30px;
+
+    /* margin-bottom: 30px; */
     flex-wrap: wrap;
 }
 
@@ -214,7 +217,7 @@
 }
 @media (max-width: 480px) {
     .vision-mission-goal .wrapper .block{
-        height: 230px;
+        height: 270px;
     }
 }
 @media (max-width: 420px) {

@@ -532,6 +532,10 @@ background-blend-mode: overlay;
         background-size: cover;
 
     }
+    .categories{
+
+        height: 670px;
+    }
     .categories .wrapper .category-container {
         flex-wrap: nowrap;
         flex-direction: column;
@@ -565,29 +569,37 @@ background-blend-mode: overlay;
     }
     .explore .wrapper .text,.sell .wrapper .text {
         align-items: center;
-        height: 240px;
+        height: 300px;
         width: 100%;
+        gap: 15px;
     }
     .explore .wrapper .text,.sell .wrapper .text h2{
         text-align: center;
     }
 }
 @media (max-width: 470px){
-
+    
     .new-listings {
-    height: 780px;
+        height: 780px;
     }
     .new-listings .wrapper .card-container .card:nth-child(4){
         display: none;
     }
     .new-listings .wrapper .card-container .card {
-            width: 300px;
-    height: 200px;
+        width: 300px;
+        height: 200px;
     }
     .new-listings .wrapper .card-container .card img {
         object-fit: contain;
         object-position: top;
     }
+}
+@media (max-width: 380px){
+    .why-choose{
+        height: 600px;
+    }
+    
+
 }
 
 
