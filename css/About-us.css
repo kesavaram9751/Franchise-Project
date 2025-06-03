@@ -224,10 +224,7 @@
     .vision-mission-goal .wrapper .block {
         height: 250px;
     }
-}
-@media (max-width: 380px) {
     .offer {
-    height: 300px;
+    height: auto;
     }
-
 }
