@@ -225,3 +225,9 @@
         height: 250px;
     }
 }
+@media (max-width: 380px) {
+    .offer {
+    height: 280px;
+    }
+
+}
