@@ -244,6 +244,9 @@
     align-items: center;
     transition-duration: 0.3s;
 }
+.categories .wrapper .category-container .category:hover {
+    box-shadow: -1px -1px 12px -3px rgba(0,0,0,0.75);
+}
 
 .categories .wrapper .category-container .category h2 {
     font-size: var(--fs-h2);
@@ -403,7 +406,11 @@
     width: 200px;
     height: 200px;
     overflow: hidden;
+    transition-duration: 0.3s;
     /* position: relative; */
+}
+.new-listings .wrapper .card-container .card:hover {
+    box-shadow: -1px -1px 12px -3px rgba(0,0,0,0.75);
 }
 
 .new-listings .wrapper .card-container .card img {
